@@ -16059,6 +16059,8 @@ mod test_merkle_proof_depth;
 mod test_snapshot_voting_weight;
 #[cfg(test)]
 mod test_storage_layout_version;
+#[cfg(test)]
+mod get_version_adversarial_test;
 
 #[cfg(test)]
 mod get_version_adversarial_test;
